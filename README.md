@@ -6,7 +6,7 @@
 
 *Auditable meditation journals, weekly wellness intentions, and trustless streak verification*
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-mindbloom--ledger.netlify.app-1A6B3C?style=for-the-badge)](https://mindbloom-ledger.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-mindbloom--stellar.netlify.app-1A6B3C?style=for-the-badge)](https://mindbloom-stellar.netlify.app/)
 [![GitHub](https://img.shields.io/badge/Source_Code-deepcloud2425%2FMindBloom-181717?style=for-the-badge&logo=github)](https://github.com/deepcloud2425/MindBloom)
 [![Network](https://img.shields.io/badge/Network-Stellar_Testnet-00B4D8?style=for-the-badge&logo=stellar)](https://stellar.expert/explorer/testnet)
 [![Built for RiseIn](https://img.shields.io/badge/Built_for-RiseIn_Level_4-B7791F?style=for-the-badge)](https://www.risein.com/)
@@ -62,7 +62,8 @@ MindBloom leverages Stellar and Soroban for several architectural advantages:
 
 | Resource | Link |
 |----------|------|
-| **Live Web App** | [mindbloom-ledger.netlify.app](https://mindbloom-ledger.netlify.app/) |
+| **Live Web App** | [mindbloom-stellar.netlify.app](https://mindbloom-stellar.netlify.app/) |
+| **Demo Video** | [Google Drive Walkthrough](https://drive.google.com/file/d/1R9YW9xyrkqiNapxX79hCYRpTjLTmOjh4/view?usp=sharing) |
 | **GitHub Repo** | [deepcloud2425/MindBloom](https://github.com/deepcloud2425/MindBloom) |
 | **Contract Explorer** | [View on Stellar Lab](https://lab.stellar.org/r/testnet/contract/CA65JTALTWIRVFHU5VM3M33EL5INJIPX6W3CDFAORR7EAWR6MUOWPRTN) |
 
