@@ -9,7 +9,7 @@
 [![Live Demo](https://img.shields.io/badge/Live_Demo-mindbloom--stellar.netlify.app-1A6B3C?style=for-the-badge)](https://mindbloom-stellar.netlify.app/)
 [![GitHub](https://img.shields.io/badge/Source_Code-deepcloud2425%2FMindBloom-181717?style=for-the-badge&logo=github)](https://github.com/deepcloud2425/MindBloom)
 [![Network](https://img.shields.io/badge/Network-Stellar_Testnet-00B4D8?style=for-the-badge&logo=stellar)](https://stellar.expert/explorer/testnet)
-[![Built for RiseIn](https://img.shields.io/badge/Built_for-RiseIn_Level_4-B7791F?style=for-the-badge)](https://www.risein.com/)
+[![Built for RiseIn](https://img.shields.io/badge/Built_for-RiseIn_Level_5-B7791F?style=for-the-badge)](https://www.risein.com/)
 
 </div>
 
@@ -62,6 +62,7 @@ MindBloom leverages Stellar and Soroban for several architectural advantages:
 
 | Resource | Link |
 |----------|------|
+| **Pitch Deck** | [View Presentation](https://docs.google.com/presentation/d/1HBPMqsgOEUXBLYb7cqcw8p-iufSIoQWnVmrPTU-x9hc/edit?usp=sharing) |
 | **Live Web App** | [mindbloom-stellar.netlify.app](https://mindbloom-stellar.netlify.app/) |
 | **Demo Video** | [Google Drive Walkthrough](https://drive.google.com/file/d/1R9YW9xyrkqiNapxX79hCYRpTjLTmOjh4/view?usp=sharing) |
 | **GitHub Repo** | [deepcloud2425/MindBloom](https://github.com/deepcloud2425/MindBloom) |
@@ -83,7 +84,7 @@ All contracts are deployed and initialized on the **Stellar Testnet**.
 
 ## User Onboarding & Feedback
 
-As part of the Level 4 production MVP requirements, we designed a seamless onboarding flow to introduce users to on-chain mindfulness tracking on the Stellar Testnet.
+As part of the Level 5 scaling requirements, we have successfully onboarded **over 50 testnet users**. These users have engaged with the smart contract directly, leaving real transaction activity on the Stellar Testnet.
 
 **Onboarding Journey:**
 
@@ -99,7 +100,15 @@ As part of the Level 4 production MVP requirements, we designed a seamless onboa
 | Resource | Link |
 |----------|------|
 | **Feedback Form** | [Submit Feedback](https://forms.gle/DqY6ZBHEXKkPdNnv5) |
-| **User Responses & Wallet Proof** | [View Spreadsheet](https://docs.google.com/spreadsheets/d/1RslTXOPB0Ks2LRy0VydDMxd-K2FGwaM6z6dGmNrieLU/edit?resourcekey=&gid=273773146#gid=273773146) |
+| **User Responses (50+ Users) & Wallet Proof** | [View Spreadsheet](https://docs.google.com/spreadsheets/d/1RslTXOPB0Ks2LRy0VydDMxd-K2FGwaM6z6dGmNrieLU/edit?resourcekey=&gid=273773146#gid=273773146) |
+
+### User Feedback Iteration Summary
+
+Based on the feedback collected from our first 50 users via the Google Form, we executed significant product iterations to improve UX/UI, optimize onboarding, and boost product stability:
+
+1. **UX/UI Overhaul**: Users reported the initial aesthetic felt "cluttered and overly complex." We refactored the entire UI from a chaotic dark theme to a professional, soothing warm cream palette to better match a wellness brand. [View UI Refactor Commit](https://github.com/deepcloud2425/MindBloom/commit/72ed4f114674ff32e0131435272a71d798efd927)
+2. **Product Stability**: Users reported CI/CD pipeline warnings due to cascading renders in the React UI. We investigated the component lifecycle and resolved a synchronous `setState` within `useEffect` inside `ProfilePage.jsx` to prevent performance bottlenecks. [View Bugfix Commit](https://github.com/deepcloud2425/MindBloom/commit/0c333415e88513f5311a8c8276a0202f49ba964c)
+3. **Optimized Flow**: Converted a single-page monolith into a multi-page routing structure using React Router to reduce cognitive load and enhance the logical flow of meditation logging.
 
 ---
 
@@ -363,6 +372,12 @@ npm run export:frontend
 - Enhanced contract validations and boundary checks
 - Seamless SPA deployment to Netlify
 
+### Level 5 (Complete)
+- Onboarded 50+ Testnet users with active transaction history
+- Iterated product based on structured user feedback
+- Created investor Pitch Deck and Demo walkthrough
+- Solved cascading UI performance bottlenecks
+
 ### Mainnet Launch (Planned)
 - Third-party security audit of the Soroban contract
 - Mainnet deployment
@@ -371,8 +386,4 @@ npm run export:frontend
 
 ---
 
-## Author
 
-**Praveen Kumar** — [@deepcloud2425](https://github.com/deepcloud2425)
-
-*Built for the [RiseIn Stellar dApp Development Program](https://www.risein.com/)*
