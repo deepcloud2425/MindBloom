@@ -96,6 +96,11 @@ As part of the Level 4 production MVP requirements, we designed a seamless onboa
 6. User reviews their progress on the Dashboard and Activity Feed
 ```
 
+| Resource | Link |
+|----------|------|
+| **Feedback Form** | [Submit Feedback](https://forms.gle/DqY6ZBHEXKkPdNnv5) |
+| **User Responses & Wallet Proof** | [View Spreadsheet](https://docs.google.com/spreadsheets/d/1RslTXOPB0Ks2LRy0VydDMxd-K2FGwaM6z6dGmNrieLU/edit?resourcekey=&gid=273773146#gid=273773146) |
+
 ---
 
 ## Architecture
@@ -222,6 +227,33 @@ MindBloom/
 ├── package.json                      # Workspace configuration and root scripts
 └── netlify.toml                      # Netlify deployment configuration
 ```
+
+---
+
+## Submission Screenshots
+
+### Web Application
+<p align="center">
+  <img src="sub%20asssets/ui1.png" alt="Dashboard View" />
+  <img src="sub%20asssets/ui2.png" alt="Profile View" />
+  <img src="sub%20asssets/ui3.png" alt="Session Logging" />
+  <img src="sub%20asssets/ui4.png" alt="Activity Feed" />
+</p>
+
+### Mobile Responsive UI
+<p align="center">
+  <img src="sub%20asssets/mobui.png" width="375" alt="Mobile UI Screenshot" />
+</p>
+
+### CI/CD Pipeline
+<p align="center">
+  <img src="sub%20asssets/cicd.png" alt="CI/CD Pipeline Run" />
+</p>
+
+### Test Suite Results
+<p align="center">
+  <img src="sub%20asssets/test%20output.png" alt="Test Execution Output" />
+</p>
 
 ---
 
