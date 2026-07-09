@@ -29,6 +29,7 @@ export default function ProfilePage() {
 
   useEffect(() => {
     if (!dashboard) return;
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setGoalForm(String(dashboard.weeklyGoalMinutes));
     setProfileForm((p) => ({
       displayName: p.displayName || dashboard.displayName,
