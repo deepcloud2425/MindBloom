@@ -371,8 +371,4 @@ npm run export:frontend
 
 ---
 
-## Author
 
-**Praveen Kumar** — [@deepcloud2425](https://github.com/deepcloud2425)
-
-*Built for the [RiseIn Stellar dApp Development Program](https://www.risein.com/)*
