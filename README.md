@@ -99,8 +99,8 @@ As part of the Level 5 scaling requirements, we have successfully onboarded **ov
 
 | Resource | Link |
 |----------|------|
-| **Feedback Form** | [Submit Feedback](https://forms.gle/DqY6ZBHEXKkPdNnv5) |
-| **User Responses (50+ Users) & Wallet Proof** | [View Spreadsheet](https://docs.google.com/spreadsheets/d/1RslTXOPB0Ks2LRy0VydDMxd-K2FGwaM6z6dGmNrieLU/edit?resourcekey=&gid=273773146#gid=273773146) |
+| **Feedback Form** | [Submit Feedback](https://forms.gle/oemBVR9qcDWmRMGDA) |
+| **User Responses (50+ Users) & Wallet Proof** | [View Spreadsheet](https://docs.google.com/spreadsheets/d/1itTbVwWiQIudtTqYi5JktBTtdd_WLQ1H7wfQO3DeEZY/edit?usp=sharing) |
 
 ### User Feedback Iteration Summary
 
