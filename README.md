@@ -62,7 +62,7 @@ MindBloom leverages Stellar and Soroban for several architectural advantages:
 
 | Resource | Link |
 |----------|------|
-| **Pitch Deck** | [View Presentation](https://docs.google.com/presentation/d/1HBPMqsgOEUXBLYb7cqcw8p-iufSIoQWnVmrPTU-x9hc/edit?usp=sharing) |
+| **Pitch Deck** | [View Presentation](https://drive.google.com/file/d/1QiD-P3xGh45KJ_wqq-GC2rk7IvQhZZZP/view?usp=sharing) |
 | **Live Web App** | [mindbloom-stellar.netlify.app](https://mindbloom-stellar.netlify.app/) |
 | **Demo Video** | [Google Drive Walkthrough](https://drive.google.com/file/d/1R9YW9xyrkqiNapxX79hCYRpTjLTmOjh4/view?usp=sharing) |
 | **GitHub Repo** | [deepcloud2425/MindBloom](https://github.com/deepcloud2425/MindBloom) |
