@@ -110,6 +110,14 @@ Based on the feedback collected from our first 50 users via the Google Form, we 
 2. **Product Stability**: Users reported CI/CD pipeline warnings due to cascading renders in the React UI. We investigated the component lifecycle and resolved a synchronous `setState` within `useEffect` inside `ProfilePage.jsx` to prevent performance bottlenecks. [View Bugfix Commit](https://github.com/deepcloud2425/MindBloom/commit/0c333415e88513f5311a8c8276a0202f49ba964c)
 3. **Optimized Flow**: Converted a single-page monolith into a multi-page routing structure using React Router to reduce cognitive load and enhance the logical flow of meditation logging.
 
+### Next Phase Improvements (Based on User Feedback)
+
+Users explicitly requested a way to visualize their meditation progress beyond just a simple streak counter. Based on this feedback, we have started scaffolding an **Advanced Analytics Dashboard** feature for the next phase.
+
+- **Planned Feature**: Advanced Analytics Dashboard (showing heatmaps and consistency metrics).
+- **Implementation Start**: We have scaffolded the new Analytics routing and placeholder UI to prepare for on-chain data aggregation.
+- **Git Commit Link**: [View Analytics Scaffold Commit](https://github.com/deepcloud2425/MindBloom/commit/29c926affec0c5d6d666214ef0daf171a8a3eb34)
+
 ---
 
 ## Architecture
