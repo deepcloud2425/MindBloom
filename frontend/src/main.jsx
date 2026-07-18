@@ -9,6 +9,7 @@ import LogSessionPage from "./pages/LogSessionPage";
 import ProfilePage from "./pages/ProfilePage";
 import ActivityFeedPage from "./pages/ActivityFeedPage";
 import SessionHistoryPage from "./pages/SessionHistoryPage";
+import AnalyticsPage from "./pages/AnalyticsPage";
 import "./styles.css";
 
 const queryClient = new QueryClient({
@@ -32,6 +33,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/activity" element={<ActivityFeedPage />} />
             <Route path="/sessions" element={<SessionHistoryPage />} />
+            <Route path="/analytics" element={<AnalyticsPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

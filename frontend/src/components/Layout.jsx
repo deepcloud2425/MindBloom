@@ -76,6 +76,7 @@ export default function Layout() {
     { to: "/profile", label: "Profile" },
     { to: "/activity", label: "Activity" },
     { to: "/sessions", label: "Sessions" },
+    { to: "/analytics", label: "Analytics" },
   ];
 
   return (
